@@ -1,7 +1,7 @@
-using IH.CustomErrors.Util.Domain;
+using com.ih.util.custom.errors.Domain;
 using Microsoft.AspNetCore.Http;
 
-namespace com.ih.session.authorization.Errors;
+namespace com.ih.util.session.authorization.Errors;
 
 [Serializable]
 public class AppAuthenticationExpiredSessionCustomErrorException : CustomErrorException

@@ -1,11 +1,11 @@
-using com.ih.session.authorization.Domain;
-using com.ih.session.authorization.Errors;
-using com.ih.session.authorization.Service;
+using com.ih.util.session.authorization.Domain;
+using com.ih.util.session.authorization.Errors;
+using com.ih.util.session.authorization.Service;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
 using Newtonsoft.Json;
 
-namespace com.ih.session.authorization.Filter;
+namespace com.ih.util.session.authorization.Filter;
 
 public class AppAuthorizationLoggedAndPermission : ActionFilterAttribute
 {

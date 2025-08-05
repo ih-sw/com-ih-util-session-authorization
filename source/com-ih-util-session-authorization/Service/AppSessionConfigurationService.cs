@@ -1,6 +1,6 @@
-using com.ih.session.authorization.Domain;
+using com.ih.util.session.authorization.Domain;
 
-namespace com.ih.session.authorization.Service;
+namespace com.ih.util.session.authorization.Service;
 
 public interface IAppSessionConfigurationService
 {

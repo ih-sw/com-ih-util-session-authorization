@@ -1,8 +1,8 @@
-using com.ih.session.authorization.Service;
+using com.ih.util.session.authorization.Service;
 using Microsoft.AspNetCore.Mvc.Filters;
 using Microsoft.Extensions.DependencyInjection;
 
-namespace com.ih.session.authorization.Filter;
+namespace com.ih.util.session.authorization.Filter;
 
 public class AppAuthorizationNotLogged : ActionFilterAttribute
 {

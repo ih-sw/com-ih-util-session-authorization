@@ -1,10 +1,10 @@
-using com.ih.session.authorization.Domain;
-using com.ih.session.authorization.Errors;
-using IH.Cryptography.Lib.Service;
+using com.ih.util.cryptography.Service;
+using com.ih.util.session.authorization.Domain;
+using com.ih.util.session.authorization.Errors;
 using Microsoft.AspNetCore.Http;
 using Newtonsoft.Json;
 
-namespace com.ih.session.authorization.Service;
+namespace com.ih.util.session.authorization.Service;
 
 public interface IAppSessionService
 {

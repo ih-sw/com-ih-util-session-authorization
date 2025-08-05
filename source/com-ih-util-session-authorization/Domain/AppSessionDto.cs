@@ -1,4 +1,4 @@
-namespace com.ih.session.authorization.Domain;
+namespace com.ih.util.session.authorization.Domain;
 
 public class AppSessionDto
 {
